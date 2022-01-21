@@ -19,6 +19,12 @@ import "@ui5/webcomponents-icons/dist/employee";
 import "@ui5/webcomponents-icons/dist/employee-pane";
 import "@ui5/webcomponents-icons/dist/trip-report";
 import "@ui5/webcomponents-icons/dist/expense-report";
+
+import "@ui5/webcomponents-icons/dist/chain-link";
+import "@ui5/webcomponents-icons/dist/connected";
+import "@ui5/webcomponents-icons/dist/x-ray";
+import "@ui5/webcomponents-icons/dist/validate";
+
 import SearchResults from "./SearchResults";
 
 const SearchReports = () => {
@@ -57,17 +63,17 @@ const SearchReports = () => {
       <ui5-messagestrip design="Information" hide-icon={true} hide-close-button={true}>Search In Configurations
       </ui5-messagestrip>
       <ui5-input id="reportIdInput" placeholder="Enter Correlation ID" style={{whiteSpace: "break-spaces"}}>
-        <ui5-icon id="reportIdInput" slot="icon" name="expense-report"/>
+        <ui5-icon id="reportIdInput" slot="icon" name="chain-link"/>
       </ui5-input>
       <ui5-input id="employeeIdInput" placeholder="Enter Cluster Id">
-        <ui5-icon id="employeeIdInput" slot="icon" name="employee"/>
+        <ui5-icon id="employeeIdInput" slot="icon" name="connected"/>
       </ui5-input>
       <ui5-input id="userIdInput" placeholder="Enter Log Level">
-        <ui5-icon id="userIdInput" slot="icon" name="employee-lookup"/>
+        <ui5-icon id="userIdInput" slot="icon" name="x-ray"/>
       </ui5-input>
-      {/* <ui5-input id="lastNameInput" placeholder="Enter Last Name">
-        <ui5-icon id="lastNameInput" slot="icon" name="employee-pane"/>
-      </ui5-input> */}
+      <ui5-input id="lastNameInput" placeholder="Enter Service Name">
+        <ui5-icon id="lastNameInput" slot="icon" name="validate"/>
+      </ui5-input>
       <ui5-daterange-picker id="mydaterange-picker12" min-date="1/1/2021" max-date="4/5/2021"
                             format-pattern="dd/MM/yyyy"/>
       <ui5-label style={{display: "none"}} id="lblAdd" aria-hidden="true">Add</ui5-label>

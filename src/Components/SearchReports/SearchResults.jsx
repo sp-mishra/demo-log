@@ -22,50 +22,43 @@ import {
   ToolbarSpacer
 } from '@ui5/webcomponents-react';
 import '@ui5/webcomponents-icons/dist/employee';
+import '@ui5/webcomponents-icons/dist/chain-link';
 // import {sapUiContentPadding} from "@ui5/webcomponents-react-base/styling/spacing";
 
 const SearchResults = () => {
   const primaryData = [
     {
       movie: 'F0FD0E393A304D13A284',
-      genre: 'Damien2 Descgov2',
-      country: 'confierm'
+      genre: 'grok-service-1',
+      country: 'asdtybfg-1'
     },
     {
       movie: 'CC49E41AFCD447878B19',
-      genre: 'Armin E2E1',
-      country: 'AF Zest 2 ER in 1 d - 1'
+      genre: 'grok-service-1',
+      country: 'asdtybfg-1'
     },
     {
       movie: 'A0635ACC680F4C8981F5',
-      genre: 'Armin E2E1',
-      country: 'Germany'
+      genre: 'grok-service-2',
+      country: 'asdtybfg-1'
     }
   ];
   const detailData = [
     {
-      name: 'Policy',
-      gender: 'Germany BRKG Expense Policy'
+      name: 'Details',
+      gender: 'This is the detailed log report'
     },
     {
-      name: 'Report Purpose:',
-      gender: ''
+      name: 'Time:',
+      gender: '01.08.2020'
     },
     {
-      name: 'Report Creation Date:',
-      gender: '01.08.2019'
+      name: 'Level:',
+      gender: 'INFO'
     },
     {
-      name: 'Report Currency:',
-      gender: 'EUR'
-    },
-    {
-      name: 'Approval status:',
-      gender: 'Approved'
-    },
-    {
-      name: 'Destination Country:',
-      gender: 'GERMANY'
+      name: 'Region:',
+      gender: 'EU-2'
     }
   ];
   const [layout, setLayout] = useState(FCLLayout.OneColumn);
@@ -116,7 +109,7 @@ const SearchResults = () => {
             }}
           >
             <Avatar
-              icon="employee"
+              icon="chain-link"
               size={AvatarSize.XL}
               style={{
                 marginLeft: '12px'
@@ -129,7 +122,7 @@ const SearchResults = () => {
               }}
             >
               <FlexBox>
-                <Label>Report ID:</Label>
+                <Label>Correlation ID:</Label>
                 <Text
                   style={{
                     marginLeft: '2px'
@@ -139,7 +132,7 @@ const SearchResults = () => {
                 </Text>
               </FlexBox>
               <FlexBox>
-                <Label>Employee Name:</Label>
+                <Label>Service Name:</Label>
                 <Text
                   style={{
                     marginLeft: '2px'
@@ -149,7 +142,7 @@ const SearchResults = () => {
                 </Text>
               </FlexBox>
               <FlexBox>
-                <Label>Country:</Label>
+                <Label>Cluster Name:</Label>
                 <Text
                   style={{
                     marginLeft: '2px'

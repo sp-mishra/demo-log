@@ -17,10 +17,10 @@ const Tabs = () => {
                                      icon="home"></ui5-product-switch-item>
             <ui5-product-switch-item title-text="Analytics Cloud" subtitle-text="Analytics Cloud"
                                      icon="business-objects-experience"></ui5-product-switch-item>
-            <ui5-product-switch-item title-text="Catalog" subtitle-text="Ariba"
+            <ui5-product-switch-item title-text="Catalog" subtitle-text="Tools"
                                      icon="contacts"></ui5-product-switch-item>
-            <ui5-product-switch-item title-text="Travel & Expense" subtitle-text="Concur"
-                                     icon="flight"></ui5-product-switch-item>
+            {/* <ui5-product-switch-item title-text="Travel & Expense" subtitle-text="Concur"
+                                     icon="flight"></ui5-product-switch-item> */}
           </ui5-product-switch>
         </ui5-label>
       </ui5-tab>
