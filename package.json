@@ -1,27 +1,20 @@
 {
-  "name": "demo-log",
+  "name": "portal-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "demo-log",
+  "homepage": "https://github.wdf.sap.corp/",
   "dependencies": {
-    "@ui5/webcomponents": "^1.0.0-rc.15",
-    "@ui5/webcomponents-base": "^1.0.0-rc.15",
-    "@ui5/webcomponents-fiori": "^1.0.0-rc.15",
-    "@ui5/webcomponents-react": "^0.18.11",
-    "@ui5/webcomponents-react-charts": "^0.18.10",
+    "@ui5/webcomponents": "~1.0.2",
+    "@ui5/webcomponents-base": "~1.0.2",
+    "@ui5/webcomponents-fiori": "~1.0.2",
+    "@ui5/webcomponents-react": "~0.20.7",
     "framer-motion": "^4.1.17",
     "gh-pages": "^2.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-flippy": "^1.1.0",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
-    "react-jss": "10.9.0",
     "reactide-config": "^1.0.2"
-  },
-    "engines": {
-    "npm": ">=7.24.2",
-    "node": ">=14.17.5"
   },
   "scripts": {
     "start": "react-scripts start",
