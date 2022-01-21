@@ -20,8 +20,8 @@
     "reactide-config": "^1.0.2"
   },
     "engines": {
-    "npm": "=7.24.2",
-    "node": "=14.17.5"
+    "npm": ">=7.24.2",
+    "node": ">=14.17.5"
   },
   "scripts": {
     "start": "react-scripts start",
