@@ -30,7 +30,7 @@ import SearchResults from "./SearchResults";
 const SearchReports = () => {
   return (
     <>
-      <ui5-messagestrip design="Information" hide-icon={true} hide-close-button={true}>Configuration List
+      <ui5-messagestrip design="Information" hide-icon={true} hide-close-button={true}>Regions
       </ui5-messagestrip>
       {/*<ui5-select*/}
       {/*    className="select"*/}
@@ -60,7 +60,7 @@ const SearchReports = () => {
         <ui5-label id="myLabel3" htmlFor="cluster" show-colon={true}>Cluster</ui5-label>
         <ui5-title id="costCenter" level="H6">asdtybfg-1</ui5-title>
       </ui5-panel>
-      <ui5-messagestrip design="Information" hide-icon={true} hide-close-button={true}>Search In Configurations
+      <ui5-messagestrip design="Information" hide-icon={true} hide-close-button={true}>Search In Logs
       </ui5-messagestrip>
       <ui5-input id="reportIdInput" placeholder="Enter Correlation ID" style={{whiteSpace: "break-spaces"}}>
         <ui5-icon id="reportIdInput" slot="icon" name="chain-link"/>

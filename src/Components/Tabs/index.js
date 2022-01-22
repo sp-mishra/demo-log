@@ -4,7 +4,7 @@ import "@ui5/webcomponents-icons/dist/download";
 import SearchReports from "../SearchReports";
 
 const Tabs = () => {
-  const recordsDownloaded = 4;
+  const recordsDownloaded = 3;
   return (
     <ui5-tabcontainer className="full-width" show-overflow={true}>
       <ui5-tab icon="search" text="Search Reports" selected={true}>

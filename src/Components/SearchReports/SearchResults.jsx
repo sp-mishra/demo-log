@@ -41,6 +41,51 @@ const SearchResults = () => {
       movie: 'A0635ACC680F4C8981F5',
       genre: 'grok-service-2',
       country: 'asdtybfg-1'
+    },
+    {
+      movie: 'F0FD0E393A304D13A284',
+      genre: 'grok-service-1',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'ZC49E41AFCD447878B19',
+      genre: 'grok-service-1',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'M0635ACC680F4C8981F5',
+      genre: 'grok-service-2',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'R0FD0E393A304D13A284',
+      genre: 'grok-service-1',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'AC49E41AFCD447878B19',
+      genre: 'grok-service-4',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'X0635ACC680F4C8981F5',
+      genre: 'grok-service-3',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'V0FD0E393A304D13A284',
+      genre: 'grok-service-1',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'TC49E41AFCD447878B19',
+      genre: 'grok-service-1',
+      country: 'asdtybfg-1'
+    },
+    {
+      movie: 'M0635ACC680F4C8981F5',
+      genre: 'grok-service-5',
+      country: 'asdtybfg-1'
     }
   ];
   const detailData = [
